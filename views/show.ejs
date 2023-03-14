@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./partials/head.ejs') %>
+    <title>Projects List</title>
+</head>
+<body>
+    <%- include('./partials/header.ejs') %>
+    <h1><%=projects.name %></h1>
+    <h6><%=projects.location%></h6>
+    <h6><%=projects.date%></h6>
+    <h6><%=projects.typology%></h6>
+    <p><%=projects.description%></p>
+    <img src="<%=projects.image1%>" alt="">
+</body>
+</html>

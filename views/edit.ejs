@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./partials/head.ejs') %>
+    <title>Projects Edit</title>
+</head>
+<body>
+    <%- include('./partials/header.ejs') %>
+    <h1>EDIT PROJECT</h1>
+
+    <form action="/projects/<%=projects._id%>?_method=PUT" method="POST">
+        Name: <input type="text" name="name" value="<%=projects.name%>">
+        Location: <input type="text" name="location" value="<%=projects.locations%>">
+        Date: <input type="number" name="date" value="<%=projects.date%>">
+        Typology: <input type="text" name="typology" value="<%=projects.typology%>">
+        Description: <input type="text" name="descriptin" value="<%=projects.description%>">
+        <input type="submit" value="Save Changes">
+    </form>
+
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+* {
+    background-color: #486284;
+    color: #ffc108;
+}
+#map {
+    border-radius: 10px;
+}
+#logo {
+    width: 150px;
+}
+p {
+    color: white;
+    font-weight: 100;
+}
+.cardBtn {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.card{
+margin: 10px;
+
+}
