@@ -16,13 +16,13 @@ const projects = [
     We decide to look at the bridge as a symbol of transition and universal understanding.
     
     The design will evoke a walk through the mountains, the thrill of crossing an abyss… suspended up in the air. The key element will be AIR.`,
-    image1: `./XIONG'AN BRIDGES/01-02-03_aerial-view_lr.jpeg`,
-    image2: `./XIONG'AN BRIDGES/04-05-06_aerial-view_lr.jpeg`,
-    image3: `./XIONG'AN BRIDGES/07-08-09-14_aerial-view.jpeg`,
-    image4: `./XIONG'AN BRIDGES/10-11-12-13_aerial-view_lr.jpeg`,
-    image5: `./XIONG'AN BRIDGES/10-11-12-13-general-concept_ENRIC-MIRALLES_web.jpeg`,
-    image6: `./XIONG'AN BRIDGES/BRIDGE-01_human-view_lr.jpeg`,
-    image7: `./XIONG'AN BRIDGES/BRIDGE-07_human-view_lr.jpeg`,
+    image1: `/bridges/01-02-03_aerial-view_lr.jpeg`,
+    image2: `/bridges/04-05-06_aerial-view_lr.jpeg`,
+    image3: `/bridges/07-08-09-14_aerial-view.jpeg`,
+    image4: `/bridges/10-11-12-13_aerial-view_lr.jpeg`,
+    image5: `/bridges/10-11-12-13-general-concept_ENRIC-MIRALLES_web.jpeg`,
+    image6: `/bridges/BRIDGE-01_human-view_lr.jpeg`,
+    image7: `/bridges/BRIDGE-07_human-view_lr.jpeg`,
 },
 {
     name: `CENTURY SQUARE`,
@@ -50,13 +50,13 @@ const projects = [
     Inside the kaleidoscope, small rooms invite the public to discover the square, the sky, the spirit of the city in between plants and mirrors.
     
     The renewed “Century Square” will become the highlight of East Nanjing Road, a new venue to experience the natural beauty of Shanghai.`,
-    image1: `./RENEWAL OF CENTURY SQUARE IN EAST NANJING ROAD/Century-Square_Aerial-view-01_web.jpeg`,
-    image2: `./RENEWAL OF CENTURY SQUARE IN EAST NANJING ROAD/Century-Square_Aerial-view-02_web.jpeg`,
-    image3: `./RENEWAL OF CENTURY SQUARE IN EAST NANJING ROAD/Century-Square_Collage-River_web.jpeg`,
-    image4: `./RENEWAL OF CENTURY SQUARE IN EAST NANJING ROAD/Century-Square_Daylight-view-01_web.jpeg`,
-    image5: `./RENEWAL OF CENTURY SQUARE IN EAST NANJING ROAD/Century-Square_Masterplan-1_web.jpeg`,
-    image6: `./RENEWAL OF CENTURY SQUARE IN EAST NANJING ROAD/Century-Square_Night-aerial-view_crop.jpeg`,
-    image7: `./RENEWAL OF CENTURY SQUARE IN EAST NANJING ROAD/Century-Square_Situation_web.jpeg`,
+    image1: `/century-square/Century-Square_Aerial-view-01_web.jpeg`,
+    image2: `/century-square/Century-Square_Aerial-view-02_web.jpeg`,
+    image3: `/century-square/Century-Square_Collage-River_web.jpeg`,
+    image4: `/century-square/Century-Square_Daylight-view-01_web.jpeg`,
+    image5: `/century-square/Century-Square_Masterplan-1_web.jpeg`,
+    image6: `/century-square/Century-Square_Night-aerial-view_crop.jpeg`,
+    image7: `/century-square/Century-Square_Situation_web.jpeg`,
 },
 {
     name: `A SCHOOL FOR COLOMBO`,
@@ -84,13 +84,13 @@ const projects = [
     Inside the kaleidoscope, small rooms invite the public to discover the square, the sky, the spirit of the city in between plants and mirrors.
     
     The renewed “Century Square” will become the highlight of East Nanjing Road, a new venue to experience the natural beauty of Shanghai.`,
-    image1: `./school/school.jpg`,
-    image2: `./school/oasis.jpg`,
-    image3: `./school/corner 1.jpg`,
-    image4: `./school/auditorium test4.jpg`,
-    image5: `././school/Cafeteria interior4.jpg`,
-    image6: `./school/classrom 1.jpg`,
-    image7: `./school/library interior3.jpg`,
+    image1: `/school/school.jpg`,
+    image2: `/school/oasis.jpg`,
+    image3: `/school/corner.jpg`,
+    image4: `/school/auditorium.jpg`,
+    image5: `/school/cafeteria.jpg`,
+    image6: `/school/classroom.jpg`,
+    image7: `/school/library.jpg`,
 },
 ]
 

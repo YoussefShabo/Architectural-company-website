@@ -1,23 +1,83 @@
-* {
-    background-color: #486284;
+body {
+    background-color: #486284 !important;
     color: #ffc108;
 }
-#map {
+h1 {
+    color: #ffc108;
+    margin-left: 6%;
+}
+h6 {
+    color: #ffc108;
+    margin-left: 6%;
+}
+iframe{
+    margin-left: 12.5%;
     border-radius: 10px;
 }
 #logo {
-    width: 150px;
+    width: 120px;
+
+}
+.btn {
+border: none !important;
+}
+.headerdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.header{
+    margin: 1%;
+    width: 140px;
 }
 p {
     color: white;
     font-weight: 100;
 }
 .cardBtn {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
+    background-color: #334d70 !important;
+    display: flex !important;
+    justify-content: space-around !important;
+    width: 100%;
 }
 .card{
-margin: 10px;
+    display: inline-flex !important;
+    align-items: center !important;
+    border-radius: 10px !important;
+    background-color: #334d70 !important;
+    border: 1px solid white !important;
+    margin: 1%;
 
+
+}
+.cardContainer{
+    margin: 1% 12%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.card-text{
+    margin: 0 !important;
+}
+.card-body{
+
+    color: #ffc108 !important;
+    display: flex;
+    flex-direction: column;
+
+}
+.container-fluid{
+    align-items: center;
+}
+#projimg{
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    height: 12em;
+    object-fit: cover;
+}
+#showimg{
+    width: 100%;
+    margin: 1% 0;
 }

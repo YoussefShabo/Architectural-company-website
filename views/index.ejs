@@ -3,37 +3,34 @@
 <head>
     <%- include('./partials/head.ejs') %>
     <title>Home</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+
 </head>
 <body>
     <%- include('./partials/header.ejs') %>
-
-    <h1>Project Index Page</h1>
+    <h1>Welcome to YoSha Studio</h1>
     <div class="container-fluid">
-            <iframe id="map"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d41215252.30162652!2d-86.42748680709664!3d18.670048987606105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smx!4v1678747012093!5m2!1sen!2smx"
-                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-        <div class="card" style="width: 22rem;">
+        <div id="map">
+            <iframe src="https://snazzymaps.com/embed/473271" width="75%" height="500px" style="border:none;"></iframe>
+        </div>
+        <div class="cardContainer">
             <% for(let i=0; i < projects.length; i++){%>
-
-                <a href="/projects/<%=projects[i].id%>">
-                    <img id="projimg" class="card-img-top" src="<%=projects[i].image1%>" alt="">
-                    <div class="card-body">
-                        <h4 class="card-title"><%=projects[i].name %></h4>
-                        <h6 class="card-text"><%=projects[i].location%></h6>
-                        <h6 class="card-text"><%=projects[i].date%></h6>
+                <div class="card" style="width: 18rem;">
+                    <a href="/projects/<%=projects[i].id%>">
+                        <img id="projimg" class="card-img-top" src="<%=projects[i].image1%>" alt="">
+                        <div class="card-body">
+                            <h6 class="card-title"><%=projects[i].name %></h6>
+                            <p class="card-text"><%=projects[i].location%> - <%=projects[i].date%></p>
+                        </div>
+                    </a>
+                    <div class="cardBtn list-group-item">
+                        <form action="/projects/<%=projects[i]._id%>/edit">
+                            <input class="btn btn-outline-warning" type="submit" value="EDIT">
+                        </form>
+                        <form action="/projects/<%=projects[i]._id%>?_method=DELETE" method="POST">
+                            <input class="btn btn-outline-warning" type="submit" value="DELETE">
+                        </form>
                     </div>
-
-                </a>
-                <div class="cardBtn">
-                    <form action="/projects/<%=projects[i]._id%>/edit">
-                        <input class="btn btn-outline-warning" type="submit" value="EDIT">
-                    </form>
-
-                    <form action="/projects/<%=projects[i]._id%>?_method=DELETE" method="POST">
-                        <input class="btn btn-outline-warning" type="submit" value="DELETE">
-                    </form>
                 </div>
             <%}%>
         </div>
