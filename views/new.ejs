@@ -30,10 +30,14 @@
             <textarea  class="form-control" type="text" name="description" rows="6" placeholder="Project's Description"></textarea>
         </div>
         <div class="mb-3">
-            Image: <input type="text" name="image">
-            <input class="btn btn-outline-warning" type="submit" value="Create Project">
-    </form>
+        <label for="formFile" class="form-label">Upload Images:</label>
+        <input type="file" id="myFile" name="image">
+        <input class="btn btn-outline-warning" type="submit" value="Create Project">
+        </div>
+      </form>
+      <form action='/api/images' method="post" enctype="multipart/form-data">
+        <input type='file' name='image' />
+      </form>
     </div>
-
 </body>
 </html>
