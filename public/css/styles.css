@@ -1,7 +1,12 @@
+/* Body and Overall changes */
 body {
     background-color: #486284 !important;
     font-family: 'Roboto', sans-serif !important;
     color: #ffc108;
+}
+p {
+    color: white;
+    font-weight: 100;
 }
 h1 {
     color: #ffc108;
@@ -18,17 +23,13 @@ h4{
     align-self: flex-end;
     font-family: 'Bebas Neue' !important;
 }
-#socialm{
-    color: #ffc108;
-}
 h6 {
     color: #ffc108;
     margin-left: 6%;
     font-family: 'Bebas Neue' !important;
 }
-iframe{
-    margin-left: 12.5%;
-    border-radius: 10px;
+#socialm{
+    color: #ffc108;
 }
 #logo {
     width: 220px;
@@ -38,17 +39,21 @@ iframe{
     justify-content: space-between;
     margin-bottom: 2%;
 }
+/* Map Stuff */
+iframe{
+    margin-left: 12.5%;
+    border-radius: 10px;
+}
 #mapbtn{
-height: 30px;
+    border: none !important;
+    height: 30px;
 }
 #btndiv{
     display: flex;
     justify-content: flex-end;
     margin-right: 6%;
 }
-.mapbtn{
-border: none !important;
-}
+/* Header Stuff */
 .headerBtn {
 border: none !important;
 font-size: 50px !important;
@@ -71,15 +76,13 @@ font-weight: 600 !important;
     justify-content: flex-end;
     padding: 10px;
 }
-p {
-    color: white;
-    font-weight: 100;
-}
-.cardBtn {
-    background-color: #334d70 !important;
-    display: flex !important;
-    justify-content: space-around !important;
-    width: 100%;
+/* Card Stuff */
+.cardContainer{
+    margin: 1% 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 .card{
     display: inline-flex !important;
@@ -88,18 +91,16 @@ p {
     background-color: #334d70 !important;
     margin: 1%;
 }
-.cardContainer{
-    margin: 1% 5%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+.cardBtn {
+    background-color: #334d70 !important;
+    display: flex !important;
+    justify-content: space-around !important;
+    width: 100%;
 }
 .card-text{
     margin: 0 !important;
 }
 .card-body{
-
     color: #ffc108 !important;
     display: flex;
     flex-direction: column;
@@ -121,7 +122,6 @@ p {
 }
 
 /* Map and List Modals */
-
 #mapModal{
     position: relative;
 	top: 0;
