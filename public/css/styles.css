@@ -1,25 +1,58 @@
 body {
     background-color: #486284 !important;
+    font-family: 'Roboto', sans-serif !important;
     color: #ffc108;
 }
 h1 {
     color: #ffc108;
     margin-left: 6%;
+    font-family: 'Bebas Neue' !important;
+}
+h3 {
+    color: #ffc108;
+    margin-left: 6%;
+    font-family: 'Bebas Neue' !important;
+}
+h4{
+    color: #ffc108;
+    align-self: flex-end;
+    font-family: 'Bebas Neue' !important;
+}
+#socialm{
+    color: #ffc108;
 }
 h6 {
     color: #ffc108;
     margin-left: 6%;
+    font-family: 'Bebas Neue' !important;
 }
 iframe{
     margin-left: 12.5%;
     border-radius: 10px;
 }
 #logo {
-    width: 120px;
-
+    width: 220px;
+}
+#projhead{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+#mapbtn{
+height: 30px;
+}
+#btndiv{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 6%;
+}
+.mapbtn{
+border: none !important;
 }
 .headerBtn {
 border: none !important;
+font-size: 50px !important;
+font-weight: 600 !important;
 }
 .headerdiv{
     display: flex;
@@ -29,7 +62,9 @@ border: none !important;
 }
 .header{
     margin: 1%;
-    width: 140px;
+    width: 250px;
+    font-family: 'Bebas Neue' !important;
+
 }
 .editDelete{
     display: flex;
@@ -51,13 +86,10 @@ p {
     align-items: center !important;
     border-radius: 10px !important;
     background-color: #334d70 !important;
-    border: 1px solid white !important;
     margin: 1%;
-
-
 }
 .cardContainer{
-    margin: 1% 12%;
+    margin: 1% 5%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -71,7 +103,6 @@ p {
     color: #ffc108 !important;
     display: flex;
     flex-direction: column;
-
 }
 .container-fluid{
     align-items: center;
@@ -79,10 +110,33 @@ p {
 #projimg{
     border-top-left-radius: 10px !important;
     border-top-right-radius: 10px !important;
-    height: 12em;
+    width: 20rem;
+    height: 10em;
     object-fit: cover;
 }
+
 #showimg{
     width: 100%;
     margin: 1% 0;
+}
+
+/* Map and List Modals */
+
+#mapModal{
+    position: relative;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	display: block;
+}
+#listModal{
+    position: relative;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	display: none;
 }

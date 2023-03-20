@@ -81,6 +81,11 @@ app.put('/projects/:id', (req,res) =>{
     })
 })
 
+                //STATIC PAGES
+app.get('/projects/contact', (req,res) => {
+    res.render('/contact.html');
+})
+
 // =======================================
 //              LISTENER
 // =======================================
