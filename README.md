@@ -1,9 +1,9 @@
 # Architectural-company-website
+
 the second project for GA Bootcamp
 
-
-background grey color: #486284
-golden color: #ffce39
+background blue Spindle color: #B2C9E2
+white Alabaster color: #FCFBFA
 
 - Logo designed on Canva.com
 - map was embedded from google maps
@@ -11,16 +11,11 @@ golden color: #ffce39
 - Skeleton was used to style text
 
 Basic app structure is based on the CRUD app examples from previous lectures and labs.
-used Snazzymaps.com to embed a stylized map on the website with linked pop-ups to the loaction and the project. code to the map is: 
+used Snazzymaps.com to embed a stylized map on the website with linked pop-ups to the loaction and the project. code to the map is:
+
 <iframe src="https://snazzymaps.com/embed/473271" width="75%" height="600px" style="border:none;"></iframe>
 
 I used a modal system to switch between the map view of the projects and the grid view!
-
-
-
-
-
-
 
 // Issues I faced:
 
