@@ -1,10 +1,9 @@
-
 const projects = [
-{
+  {
     name: `XIONG'AN BRIDGES`,
-    location: 'Hebei, China',
+    location: "Hebei, China",
     date: 2020,
-    typology: 'Infrastructure',
+    typology: "Infrastructure",
     description: `Connecting, therefore is a keyword, is a fundamental action to ensure the well-functioning of the city.
 
     This sequence of bridges will do more than just connect vital functions; they will be platforms to support the liveliness of the city by bringing the citizens together by the waterfront.
@@ -23,12 +22,12 @@ const projects = [
     image5: `/bridges/10-11-12-13-general-concept_ENRIC-MIRALLES_web.jpeg`,
     image6: `/bridges/BRIDGE-01_human-view_lr.jpeg`,
     image7: `/bridges/BRIDGE-07_human-view_lr.jpeg`,
-},
-{
+  },
+  {
     name: `CENTURY SQUARE`,
-    location: 'Shanghai, China',
+    location: "Shanghai, China",
     date: 2020,
-    typology: 'Urban Spaces',
+    typology: "Urban Spaces",
     description: `The new design for the very significant “Century Square” at East Nanjing Road in Shanghai, opens like a shell and shows the splendour of its 'pearl', a shining kaleidoscope which reflects the new green urban scenery.
 
     “Century Square” has always been related to shows and events, positioned in a strategic connection between “Peoples Square” and “The Bund”, and characterized by its special ambience of incredible night lights and commercial presentations.
@@ -57,12 +56,12 @@ const projects = [
     image5: `/century-square/Century-Square_Masterplan-1_web.jpeg`,
     image6: `/century-square/Century-Square_Night-aerial-view_crop.jpeg`,
     image7: `/century-square/Century-Square_Situation_web.jpeg`,
-},
-{
+  },
+  {
     name: `A SCHOOL FOR COLOMBO`,
-    location: 'Colombo, Sri Lanka',
+    location: "Colombo, Sri Lanka",
     date: 2020,
-    typology: 'Educational Spaces',
+    typology: "Educational Spaces",
     description: `The school presented here has been designed for a competition in Sri-Lanka that called for an educational facility that centered community engagement. Before we started designing, we set up a group of principals that guided us throughout the design process.
 
     We wanted to mainly create a resilient structure that can potentially protect the inhabitants from the common fooding that occurs in the area. We also wanted to create a sense of ownership for the community it celebrates, where we not only give back the space to the community, but we also give them the freedom of deciding what happens next.
@@ -77,30 +76,31 @@ const projects = [
     image5: `/school/cafeteria.jpg`,
     image6: `/school/classroom.jpg`,
     image7: `/school/library.jpg`,
-},
-{
+  },
+  {
     name: `SPECULATIONS ON WATER`,
-    location: 'Quito, Ecuador',
+    location: "Quito, Ecuador",
     date: 2019,
-    typology: 'Civc Spaces',
+    typology: "Civc Spaces",
     description: `For this project, we studied closely the water problem in Quito Ecuador and its social, environmental, and economic effects on life near the Amazon. The premise of the studio was to propose a concept that would be a public institution, as well as an infrastructure complex that aimed to solve some of the water problems in Quito.
 
     Our proposal focused on “Parc El Sena” in central Quito and proposed a new way of raising awareness of the problem at hand for the locals in the city. The Machangara river that crosses the park is in a very bad condition right now, so we proposed a new “fake river” that follows the natural path of the river and would have allowed inhabitants to interact with a cleaner water as they refect on the conditions of the actual river down below. As the “fake river” weaves between the hills of the site it creates destinations along the way and in this case, it would have connected a natural history museum and a public swimming pool.
 
     A third portion of the project was dedicated to get visitors a third point of view to compare the conditions of the water on both levels below. At this observatory point sits a horse stable that acts as the overseer's tower.`,
-    image1: `/quito/Big-Ass-Render.jpg`,
-    image2: `/quito/Entry-Perspective.jpg`,
-    image3: `/quito/Exterior-A.jpg`,
+
+    image1: `/quito/Entry-Perspective.jpg`,
+    image2: `/quito/Exterior-A.jpg`,
+    image3: `/quito/Big-Ass-Render.jpg`,
     image4: `/quito/Pier-A.jpg`,
     image5: `/quito/Interior-A.jpg`,
     image6: `/quito/perspective-Fake-river.jpg`,
     image7: `/quito/quito.jpg`,
-},
-{
+  },
+  {
     name: `EXPERIMENTAL HOUSING`,
-    location: 'Munich, Germany',
+    location: "Munich, Germany",
     date: 2018,
-    typology: 'Educational/ Residential Spaces',
+    typology: "Educational/ Residential Spaces",
     description: `The premise of the project was to come up with an experimental housing complex for the Technical University of Munich (TUM). Our proposal for this project was to present an Urban grid system that is modular and could be applied to any given site like a carpet/ tapestry, then respond to the topography and the boundaries of the specifc site accordingly. A series of different anomalies cut through the site to address issues of density and livability in the project offering spaces like green spaces and trails, communal assembly plaza, co-working/ co-studying spaces, shelters etc.
     
     The housing project was designed to house 4000 students and 1000 residents of different backgrounds. The design of this complex brings together people from mixed-age groups, mixed-income groups, and creates mixed land use spaces. The goal behind these ideas was to bring a sense of community and connectedness to the site which in turn would help with the social well- being of the residents.
@@ -112,12 +112,12 @@ const projects = [
     image4: `/tum/follie-render.png`,
     image5: `/tum/follie-closeup.png`,
     image6: `/tum/elevations.png`,
-},
-{
+  },
+  {
     name: `ROTATIVE`,
-    location: 'Milan, Italy',
+    location: "Milan, Italy",
     date: 2020,
-    typology: 'Urban Spaces',
+    typology: "Urban Spaces",
     description: `This project is a response to “Il Corriere Della Sera”, an Italian Newspaper's call for a necessary revision of the Newsstand of the Future that responds to a new urban condition and a changing community.
 
     In our approach we studied the history of the “Edicola”, or the Newsstand. Tracing it back to its Turkish origin, or “Chiosco”, which was a place where Street vendors settled in public plazas to offer their goods and news to the passerbyers.
@@ -133,8 +133,8 @@ const projects = [
     image4: `/rotative/1.png`,
     image5: `/rotative/2.png`,
     image6: `/rotative/3.png`,
-    image7: `/rotative/4.png`
-},
-]
+    image7: `/rotative/4.png`,
+  },
+];
 
-module.exports = projects
+module.exports = projects;
